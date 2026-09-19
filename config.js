@@ -44,8 +44,8 @@ window.LYNKTR_CONFIG = {
       group: "Projects",
     },
     {
-      title: "donate on kofi",
-      description: "tba",
+      title: "donate",
+      description: "support via ko-fi",
       url: "https://ko-fi.com/technm",
       icon: "heart",
       group: "Support",

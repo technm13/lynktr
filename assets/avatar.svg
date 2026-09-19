@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title description">
+  <title id="title">Placeholder avatar</title>
+  <desc id="description">An abstract four-pointed star on a warm gradient.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffbd91"/><stop offset=".52" stop-color="#ed6a45"/><stop offset="1" stop-color="#aa3f49"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="#733328" flood-opacity=".3"/></filter>
+  </defs>
+  <rect width="256" height="256" rx="72" fill="url(#background)"/>
+  <circle cx="46" cy="46" r="22" fill="#fff" opacity=".12"/><circle cx="216" cy="199" r="46" fill="#681f35" opacity=".11"/>
+  <path d="M128 48c7 45 35 73 80 80-45 7-73 35-80 80-7-45-35-73-80-80 45-7 73-35 80-80Z" fill="#fff8ed" filter="url(#shadow)"/>
+  <circle cx="128" cy="128" r="13" fill="#ed6a45"/>
+</svg>

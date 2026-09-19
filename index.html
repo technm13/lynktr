@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="A curated collection of projects and links." />
+    <meta name="theme-color" content="#f4f0e8" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Lynktr" />
+    <meta property="og:description" content="Projects, experiments, and places to find us." />
+    <title>Lynktr</title>
+    <link rel="icon" href="assets/technm-favicon.png" type="image/png" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="config.js" defer></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="ambient ambient-one" aria-hidden="true"></div>
+    <div class="ambient ambient-two" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="Back to top">
+        <span class="wordmark-mark" aria-hidden="true">↗</span>
+        <span id="brand-name">Lynktr</span>
+      </a>
+
+      <div class="theme-control">
+        <button class="theme-button" id="theme-button" type="button" aria-haspopup="listbox" aria-expanded="false" aria-controls="theme-menu">
+          <span class="theme-swatch" aria-hidden="true"></span>
+          <span id="active-theme">Theme</span>
+          <svg viewBox="0 0 16 16" aria-hidden="true"><path d="m4 6 4 4 4-4" /></svg>
+        </button>
+        <div class="theme-menu" id="theme-menu" role="listbox" aria-label="Choose a theme" hidden></div>
+      </div>
+    </header>
+
+    <main id="top" class="page-shell">
+      <section class="profile" aria-labelledby="profile-name">
+        <div class="avatar-wrap">
+          <img id="profile-avatar" class="avatar" src="assets/technm-logo.png" alt="" width="84" height="84" />
+          <span class="status-dot" title="Available" aria-label="Available"></span>
+        </div>
+        <div class="eyebrow" id="profile-handle">@yourhandle</div>
+        <h1 id="profile-name">Your name or studio</h1>
+        <p id="profile-bio">A short introduction goes here.</p>
+        <div class="socials" id="socials" aria-label="Social links"></div>
+      </section>
+
+      <section class="links-section" aria-label="Links">
+        <div id="links" class="links-list"></div>
+      </section>
+    </main>
+
+    <footer>
+      <p id="footer-text"></p>
+      <a class="footer-link" href="https://github.com/technm13/lynktr" target="_blank" rel="noreferrer">Make your own <span aria-hidden="true">↗</span></a>
+    </footer>
+
+    <noscript><div class="noscript">This page needs JavaScript enabled to display its configured links.</div></noscript>
+  </body>
+</html>
